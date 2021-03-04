@@ -41,9 +41,12 @@ namespace API
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             services.AddCors();
             services.AddIdentityServices(_config);
             services.AddSignalR();
+=======
+>>>>>>> parent of 32658ec (End of section 3)
 =======
 >>>>>>> parent of 32658ec (End of section 3)
 =======
@@ -67,12 +70,15 @@ namespace API
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             app.UseCors(x => x.AllowAnyHeader()
                 .AllowAnyMethod()
                 .AllowCredentials()
                 .WithOrigins("https://localhost:4200"));
 
             app.UseAuthentication();
+=======
+>>>>>>> parent of 32658ec (End of section 3)
 =======
 >>>>>>> parent of 32658ec (End of section 3)
 =======
