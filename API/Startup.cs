@@ -37,9 +37,12 @@ namespace API
         {
             services.AddApplicationServices(_config);
             services.AddControllers();
+<<<<<<< HEAD
             services.AddCors();
             services.AddIdentityServices(_config);
             services.AddSignalR();
+=======
+>>>>>>> parent of 32658ec (End of section 3)
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,12 +54,15 @@ namespace API
 
             app.UseRouting();
 
+<<<<<<< HEAD
             app.UseCors(x => x.AllowAnyHeader()
                 .AllowAnyMethod()
                 .AllowCredentials()
                 .WithOrigins("https://localhost:4200"));
 
             app.UseAuthentication();
+=======
+>>>>>>> parent of 32658ec (End of section 3)
             app.UseAuthorization();
 
             app.UseDefaultFiles();
